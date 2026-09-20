@@ -27,5 +27,7 @@ router.post(
 // * ==========  get /api/answers ==============
 // answer.routes.js
 
+// *========patch /api/answers/{answerId} update one answer=======
+
 router.get("/", authenticateUser, getAnswersController);
 export default router;
