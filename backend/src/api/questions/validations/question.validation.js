@@ -1,7 +1,7 @@
-import { body, param } from "express-validator";
+import { body, param,query } from "express-validator";
 import { validationErrorHandler } from "../../../middleware/validation-handeler.js";
 import { query } from "express-validator";
-
+// * express-validator :body,param,query
 export const createQuestionValidation = [
   body("title")
     .trim()

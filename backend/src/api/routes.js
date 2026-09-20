@@ -13,3 +13,7 @@ mainRouter.use("/questions", questionRoutes);
 
 // answer /api/answer
 mainRouter.use("/answers", answerRoutes);
+
+//api/mysql
+
+mainRouter.use("/", ragRouter);
